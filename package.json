@@ -1,0 +1,22 @@
+{
+  "name": "MVC",
+  "description": "MVC",
+  "version": "0.0",
+  "private": true,
+  "dependencies": {
+    "node-static": "0.6.7",
+    "nodefly": "stable"
+  },
+  "scripts": {
+    "start": "node-static_server.js"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.49"
+  },
+  "subdomain": "MVC",
+  "domains": [
+    "MVC.se",
+    "www.MVC.se"
+  ]
+}
